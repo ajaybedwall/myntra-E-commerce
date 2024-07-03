@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./Login.css";
 
+// eslint-disable-next-line react/prop-types
 function Registration({ setShowLogin }) {
     const [username, setUsername] = useState("");
     const [email, setEmail] = useState("");
